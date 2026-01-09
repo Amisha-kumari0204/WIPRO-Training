@@ -1,0 +1,15 @@
+D:\Practice_W\Day 2\CarParkingApp\bin\Debug\net10.0\CarParkingApp.exe
+D:\Practice_W\Day 2\CarParkingApp\bin\Debug\net10.0\CarParkingApp.deps.json
+D:\Practice_W\Day 2\CarParkingApp\bin\Debug\net10.0\CarParkingApp.runtimeconfig.json
+D:\Practice_W\Day 2\CarParkingApp\bin\Debug\net10.0\CarParkingApp.dll
+D:\Practice_W\Day 2\CarParkingApp\bin\Debug\net10.0\CarParkingApp.pdb
+D:\Practice_W\Day 2\CarParkingApp\obj\Debug\net10.0\CarParkingApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice_W\Day 2\CarParkingApp\obj\Debug\net10.0\CarParkingApp.AssemblyInfoInputs.cache
+D:\Practice_W\Day 2\CarParkingApp\obj\Debug\net10.0\CarParkingApp.AssemblyInfo.cs
+D:\Practice_W\Day 2\CarParkingApp\obj\Debug\net10.0\CarParkingApp.csproj.CoreCompileInputs.cache
+D:\Practice_W\Day 2\CarParkingApp\obj\Debug\net10.0\CarParkingApp.sourcelink.json
+D:\Practice_W\Day 2\CarParkingApp\obj\Debug\net10.0\CarParkingApp.dll
+D:\Practice_W\Day 2\CarParkingApp\obj\Debug\net10.0\refint\CarParkingApp.dll
+D:\Practice_W\Day 2\CarParkingApp\obj\Debug\net10.0\CarParkingApp.pdb
+D:\Practice_W\Day 2\CarParkingApp\obj\Debug\net10.0\CarParkingApp.genruntimeconfig.cache
+D:\Practice_W\Day 2\CarParkingApp\obj\Debug\net10.0\ref\CarParkingApp.dll
