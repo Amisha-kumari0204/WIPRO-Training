@@ -19,7 +19,7 @@ class Program
 
         // Step 4: Peek at the top value of the stack without removing it
         int topValue = stack.Peek();
-        Console.WriteLine("Top Value: " + topValue);
+        Console.WriteLine("Top Value:  " + topValue);
 
         // Step 5: Check if the stack contains a specific value
         bool contains20 = stack.Contains(20);

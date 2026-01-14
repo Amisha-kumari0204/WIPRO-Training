@@ -24,7 +24,7 @@ class Program
         if (stack.Count > 0)
         {
             object top = stack.Peek();
-            Console.WriteLine("Top (object): " + top);
+            Console.WriteLine("Top (object):  " + top);
         }
 
         // Step 5: Check if the stack contains a specific value
