@@ -2,24 +2,29 @@ using System;
 
 class ArrayProgram
 {
-    static void Main()
+   public static void Main()
     {
-        // Step 1: Declare the array of type int
-        int[] numbers;
-
-        // Step 2: Initialize the array with size 5
-        numbers = new int[5];
-        // Step 3: Assign values to each index of the array
-        numbers[0] = 10;
-        numbers[1] = 20;
-        numbers[2] = 30;
-        numbers[3] = 40;
-        numbers[4] = 50;
-
-        // Step 4: Print the values of the array using a for loop
-        for (int i = 0; i < numbers.Length; i++)
+       //staic array
+        int[] a={1,2,3,4,5};
+        for(int i=0;i<a.Length;i++)
         {
-            Console.WriteLine($"Index {i}: {numbers[i]}");
+            Console.WriteLine(i+":"+a[i]);
         }
+        //dynamic array
+        int n;
+        Console.WriteLine("Enter the size of array:");
+        n=Convert.ToInt32(Console.ReadLine());
+        int[] b=new int[n];
+        for(int j=0;j<b.Length;j++)
+        {
+            Console.WriteLine("Enter the element at index "+j+":");
+            b[j]=Convert.ToInt32(Console.ReadLine());
+        }
+        Console.WriteLine("The elements in the array are:");
+        for(int k=0;k<b.Length;k++)
+        {
+            Console.WriteLine(k+":"+b[k]);
+        }
+
     }
 }
