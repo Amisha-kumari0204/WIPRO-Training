@@ -41,15 +41,20 @@ public static class Program
         }
         catch (DailyLimitExceededException dlex)
         {
-            Console.WriteLine($"Business rule violation: {dlex.Message}");
-            // Here you could notify user, break into smaller transactions, or log the event
+            // Business rule exception — do not flood logs. Handle gracefully and inform the user.
+            Console.WriteLine($"Business rule: {dlex.Message}");
+            // Record minimal info via logger (Info-level only; will not be output with MinimumLogLevel=Critical)
+            Logger.LogInfo($"Daily limit exceeded while making a transaction: {dlex.Message}");
         }
         catch (ArgumentException aex)
         {
             Console.WriteLine($"Invalid input: {aex.Message}");
+            Logger.LogInfo($"Invalid input during transaction: {aex.Message}");
         }
         catch (Exception ex)
         {
+            // Unexpected/critical exceptions should be logged so they can be investigated
+            Logger.LogException(ex, "Unexpected error in transaction demo");
             Console.WriteLine($"Unexpected error: {ex.GetType().Name} - {ex.Message}");
         }
         finally
