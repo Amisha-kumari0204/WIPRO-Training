@@ -31,7 +31,7 @@ class TwoDArrayProgram
         {
             for(int j=0;j<2;j++)
             {
-                a[i,j]=Convert.ToInt32(Console.ReadLine());
+                a[i,j]=Convert.ToInt64(Console.ReadLine());
             }
         }
 
@@ -44,5 +44,5 @@ class TwoDArrayProgram
             }
         }
 
-     }
+    }
 }

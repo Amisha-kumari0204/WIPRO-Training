@@ -23,7 +23,7 @@ class ArrayProgram
         Console.WriteLine("The elements in the array are:");
         for(int k=0;k<b.Length;k++)
         {
-            Console.WriteLine(k+":"+b[k]);
+           Console.WriteLine(k+":"+b[k]);
         }
 
     }
