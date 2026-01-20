@@ -1,0 +1,15 @@
+D:\Practice_W\Day 10\TestDemo2\bin\Debug\net10.0\TestDemo2.exe
+D:\Practice_W\Day 10\TestDemo2\bin\Debug\net10.0\TestDemo2.deps.json
+D:\Practice_W\Day 10\TestDemo2\bin\Debug\net10.0\TestDemo2.runtimeconfig.json
+D:\Practice_W\Day 10\TestDemo2\bin\Debug\net10.0\TestDemo2.dll
+D:\Practice_W\Day 10\TestDemo2\bin\Debug\net10.0\TestDemo2.pdb
+D:\Practice_W\Day 10\TestDemo2\obj\Debug\net10.0\TestDemo2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice_W\Day 10\TestDemo2\obj\Debug\net10.0\TestDemo2.AssemblyInfoInputs.cache
+D:\Practice_W\Day 10\TestDemo2\obj\Debug\net10.0\TestDemo2.AssemblyInfo.cs
+D:\Practice_W\Day 10\TestDemo2\obj\Debug\net10.0\TestDemo2.csproj.CoreCompileInputs.cache
+D:\Practice_W\Day 10\TestDemo2\obj\Debug\net10.0\TestDemo2.sourcelink.json
+D:\Practice_W\Day 10\TestDemo2\obj\Debug\net10.0\TestDemo2.dll
+D:\Practice_W\Day 10\TestDemo2\obj\Debug\net10.0\refint\TestDemo2.dll
+D:\Practice_W\Day 10\TestDemo2\obj\Debug\net10.0\TestDemo2.pdb
+D:\Practice_W\Day 10\TestDemo2\obj\Debug\net10.0\TestDemo2.genruntimeconfig.cache
+D:\Practice_W\Day 10\TestDemo2\obj\Debug\net10.0\ref\TestDemo2.dll
