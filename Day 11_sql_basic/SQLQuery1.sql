@@ -5,7 +5,6 @@ SELECT name  from sys.databases;
 --create database
 CREATE DATABASE TEST1;
 
-
 --use database
 USE TEST1;
 
@@ -29,5 +28,20 @@ VALUES
 (4,'mishri',21,'B'),
 (5,'AmishaKri',25,'C');
 
---show all databases valuess
-SELECT * from students;
+--CHECK EXISTING Table
+EXEC sp_help students;
+
+
+--read data
+SELECT * FROM STUDENTS;
+
+--modify data
+UPDATE students 
+ set age=29
+ where id=5;
+
+ --delete data
+ Delete FROM students where id =4;
+
+ --truncate 
+ truncate table students;
