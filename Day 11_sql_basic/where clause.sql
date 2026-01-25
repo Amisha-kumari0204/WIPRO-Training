@@ -45,3 +45,13 @@ where year(hire_date)> (2020);
 --Find employees whose department is not HR
 select * from employees where department != 'Human Resources';
 
+
+--ORDER BY
+--List employees by salary (high to low)  
+Select * from employees order by salary;
+--Sort employees by hire date (earliest to latest)  
+Select * from employees order by hire_date;
+--Order employees alphabetically by first name  
+select * from employees order by fname;
+--Order employees by department then by last name
+select * from employees order by department, lname;
