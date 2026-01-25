@@ -55,3 +55,17 @@ Select * from employees order by hire_date;
 select * from employees order by fname;
 --Order employees by department then by last name
 select * from employees order by department, lname;
+
+
+--LIKE
+-- Find employees whose first name starts with 'A' 
+select * from employees where fname like 'A%';
+--Find employees whose last name ends with 'a'  
+select * from employees where lname like '%a';
+--Find emails that contain 'gupta'  
+select email from employees where email like '%gupta%';
+--Find departments with names starting with 'M'
+select DISTINCT department from employees where department like 'M%';
+
+
+
