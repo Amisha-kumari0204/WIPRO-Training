@@ -17,4 +17,4 @@ select * from employees  where fname like 'A%';
 select * from employees  where LEN(lname)=4;
 
 
-select * from employees;
+
