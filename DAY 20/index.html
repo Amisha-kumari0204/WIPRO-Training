@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Data Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>API Data Viewer</h1>
+        
+        <div class="button-group">
+            <button class="btn btn-todos" onclick="fetchTodos()">Load Todos</button>
+            <button class="btn btn-comments" onclick="fetchComments()">Load Comments</button>
+            <button class="btn btn-users" onclick="fetchUsers()">Load Users</button>
+        </div>
+
+        <div class="loading" id="loading" style="display: none;">Loading data...</div>
+        <div class="error" id="error" style="display: none;"></div>
+
+        <div id="content">
+            <p class="placeholder">Select a button above to load data</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
