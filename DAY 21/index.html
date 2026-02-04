@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Society Event Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    #eventList {
+      list-style: none;
+      padding: 0;
+      max-width: 480px;
+    }
+    #eventList li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin-bottom: 6px;
+      cursor: pointer;
+    }
+    #eventList li.selected {
+      background-color: #f0f8ff;
+    }
+    .event-title {
+      flex: 1;
+      margin-right: 10px;
+    }
+    .badge {
+      background: #0078d4;
+      color: white;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 0.9em;
+    }
+    #eventDetails {
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 360px;
+    }
+    button {
+      margin: 5px 6px 5px 0;
+    }
+    #addEventForm {
+      margin-top: 12px;
+      padding: 10px;
+      border: 1px dashed #aaa;
+      max-width: 480px;
+      display: none;
+    }
+    label {display:block; margin-top:8px}
+    input[type="text"], textarea {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 6px;
+    }
+    .small { font-size: 0.9em; color: #666 }
+  </style>
+</head>
+<body>
+  <h2>Society Event Registration</h2>
+
+  <ul id="eventList" aria-label="Events list"></ul>
+
+  <div id="eventDetails" aria-live="polite">
+    <h3 id="eventTitle">Select an event</h3>
+    <p id="eventDesc" class="small">Click an event from the list to view details.</p>
+    <p>Participants: <span id="count">0</span></p>
+
+    <button id="registerBtn" disabled>Register</button>
+    <button id="unregisterBtn" disabled>Unregister</button>
+  </div>
+
+  <div style="margin-top:10px;">
+    <button id="addEventBtn">Add New Event</button>
+  </div>
+
+  <div id="addEventForm">
+    <h4>Add Event</h4>
+    <label for="newTitle">Title</label>
+    <input id="newTitle" type="text" maxlength="80" />
+    <label for="newDesc">Description</label>
+    <textarea id="newDesc" rows="3" maxlength="300"></textarea>
+    <div style="margin-top:8px;">
+      <button id="saveNewBtn">Save</button>
+      <button id="cancelNewBtn">Cancel</button>
+    </div>
+    <p class="small">Titles must be non-empty; participants start at 0.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
