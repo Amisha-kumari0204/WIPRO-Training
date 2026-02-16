@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>Task Master</h1>
+        <div class="input-group">
+            <input type="text" id="todoInput" placeholder="Add a new task...">
+            <button id="addBtn"><i class="fas fa-plus"></i></button>
+        </div>
+        <ul id="todoList">
+            <!-- Tasks will appear here -->
+        </ul>
+        <div class="stats">
+            <span id="taskCount">0 tasks left</span>
+            <button id="clearCompleted">Clear Completed</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
