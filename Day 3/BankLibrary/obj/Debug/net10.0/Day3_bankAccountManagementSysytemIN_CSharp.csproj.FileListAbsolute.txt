@@ -1,5 +1,0 @@
-D:\Practice_W\Day 3\BankLibrary\obj\Debug\net10.0\Day3_bankAccountManagementSysytemIN_CSharp.GeneratedMSBuildEditorConfig.editorconfig
-D:\Practice_W\Day 3\BankLibrary\obj\Debug\net10.0\Day3_bankAccountManagementSysytemIN_CSharp.AssemblyInfoInputs.cache
-D:\Practice_W\Day 3\BankLibrary\obj\Debug\net10.0\Day3_bankAccountManagementSysytemIN_CSharp.AssemblyInfo.cs
-D:\Practice_W\Day 3\BankLibrary\obj\Debug\net10.0\Day3_bankAccountManagementSysytemIN_CSharp.csproj.CoreCompileInputs.cache
-D:\Practice_W\Day 3\BankLibrary\obj\Debug\net10.0\Day3_bankAccountManagementSysytemIN_CSharp.sourcelink.json
