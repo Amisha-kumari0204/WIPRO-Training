@@ -1,0 +1,26 @@
+{
+  "name": "smartserve-spa",
+  "version": "1.0.0",
+  "description": "SmartServe - Single Page Web Application for Local Services",
+  "main": "assets/js/app.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SPA",
+    "SmartServe",
+    "Local Services",
+    "Bootstrap",
+    "JavaScript"
+  ],
+  "author": "Amisha Kumari",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

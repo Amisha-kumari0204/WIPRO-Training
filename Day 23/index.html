@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartServe - Local Services at Your Fingertips</title>
+    <!-- Bootstrap CSS -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Navigation (US-BS-02, US-HTML-01) -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#" id="logo">
+                    <i class="fas fa-tools me-2"></i>SmartServe
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home" data-link>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services" data-link>Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#booking" data-link>Book Now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" data-link>About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Area (Dynamic SPA Content) (US-SPA-01, US-SPA-02) -->
+    <main id="app-content" class="mt-5 pt-5">
+        <!-- Content will be injected here by JavaScript -->
+        <div class="container text-center py-5">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (US-HTML-01) -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>SmartServe</h5>
+                    <p>Connecting you with local experts.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#services" class="text-white text-decoration-none">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Contact Us</h5>
+                    <p><i class="fas fa-envelope me-2"></i>support@smartserve.in</p>
+                    <p><i class="fas fa-phone me-2"></i>+91 98765 43210</p>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <p class="mb-0">&copy; 2026 SmartServe. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- jQuery and Bootstrap Bundle JS -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- App Logic -->
+    <script src="assets/js/services.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
