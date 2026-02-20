@@ -1,0 +1,14 @@
+S:\wip\Day 7\OrderProcessingSystem\bin\Debug\net10.0\OrderProcessingSystem.exe
+S:\wip\Day 7\OrderProcessingSystem\bin\Debug\net10.0\OrderProcessingSystem.deps.json
+S:\wip\Day 7\OrderProcessingSystem\bin\Debug\net10.0\OrderProcessingSystem.runtimeconfig.json
+S:\wip\Day 7\OrderProcessingSystem\bin\Debug\net10.0\OrderProcessingSystem.dll
+S:\wip\Day 7\OrderProcessingSystem\bin\Debug\net10.0\OrderProcessingSystem.pdb
+S:\wip\Day 7\OrderProcessingSystem\obj\Debug\net10.0\OrderProcessingSystem.GeneratedMSBuildEditorConfig.editorconfig
+S:\wip\Day 7\OrderProcessingSystem\obj\Debug\net10.0\OrderProcessingSystem.AssemblyInfoInputs.cache
+S:\wip\Day 7\OrderProcessingSystem\obj\Debug\net10.0\OrderProcessingSystem.AssemblyInfo.cs
+S:\wip\Day 7\OrderProcessingSystem\obj\Debug\net10.0\OrderProcessingSystem.csproj.CoreCompileInputs.cache
+S:\wip\Day 7\OrderProcessingSystem\obj\Debug\net10.0\OrderProcessingSystem.dll
+S:\wip\Day 7\OrderProcessingSystem\obj\Debug\net10.0\refint\OrderProcessingSystem.dll
+S:\wip\Day 7\OrderProcessingSystem\obj\Debug\net10.0\OrderProcessingSystem.pdb
+S:\wip\Day 7\OrderProcessingSystem\obj\Debug\net10.0\OrderProcessingSystem.genruntimeconfig.cache
+S:\wip\Day 7\OrderProcessingSystem\obj\Debug\net10.0\ref\OrderProcessingSystem.dll
